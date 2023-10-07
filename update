@@ -1,5 +1,5 @@
 sudo apt-get update
-sudo rpi-update
+sudo SKIP_WARNING=1 rpi-update
 sudo apt-get upgrade -y 
 sudo apt-get autoremove -y
 sudo apt-get autoclean -y
